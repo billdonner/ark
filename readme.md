@@ -204,7 +204,7 @@ To facilitate this, a set of "shell functions" that hide the Postgres and Mongo 
 
 The main flow for acquiring brand information is the most time-consuming and time-critical part of the system, and a key performance metric is to process 10,000 ads in 10 minutes.
 
-<img src="‎https://billdonner.com/0311/aq.png" alt="Alt text for the image" width="400">
+<img src="aq.png" alt="Alt text for the image" width="400">
 
 To kick off processing for a brand:
 
