@@ -1,0 +1,673 @@
+<!DOCTYPE html>  
+<html lang="US">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>readme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style id="mkstylesheet">
+body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;margin:30px 0 0;padding:0;background:#fff;color:#303030;font-size:14px;line-height:1.45}#wrapper{padding:20px}li{font-size:110%}li li{font-size:100%}li p{font-size:100%;margin:.5em 0}h1{color:#000}h2{color:#111}h3{color:#111}h4{color:#111}h5{color:#111}h6{color:#111;font-style:italic}p,td,div{color:#111;font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;word-wrap:break-word}a{color:#0d6ea1;text-decoration:none;-webkit-transition:color .2s ease-in-out;-moz-transition:color .2s ease-in-out;-o-transition:color .2s ease-in-out;-ms-transition:color .2s ease-in-out;transition:color .2s ease-in-out}a:hover{color:#3593d9}h1,h2,h3,h4,h5{margin:2.75rem 0 1rem;font-weight:600;line-height:1.15}h1{margin-top:0;font-size:3.052em}h2{font-size:2.441em}h3{font-size:1.953em}h4{font-size:1.563em}h5{font-size:1.25em}ul,ol,pre,table,blockquote{margin-top:.625em;margin-bottom:.625em}hr{border:1px solid;margin:-1px 0}ul ul,ol ol,ul ol,ol ul{margin-top:0;margin-bottom:0}b,strong,em,small,code{line-height:1}.footnote{color:#0d6ea1;font-size:.8em;vertical-align:super}abbr,acronym{border-bottom:1px dotted #aaa}#wrapper img{max-width:100%;height:auto}dd{font-size:1em;margin-bottom:1em}li>p:first-of-type{margin:0}li p+p{margin-top:16px}ul,ol{padding-left:2.5rem}#wrapper ol{list-style-position:outside}ul ul,ul ol{margin-bottom:.4em}caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr{border-spacing:0}table{border:1px solid rgba(0,0,0,0.25);border-collapse:collapse;display:table;empty-cells:hide;margin:-1px 0 1.3125em;padding:0;table-layout:fixed}caption{display:table-caption;font-weight:700}col{display:table-column}colgroup{display:table-column-group}tbody{display:table-row-group}tfoot{display:table-footer-group}thead{display:table-header-group}td,th{display:table-cell}tr{display:table-row}table th,table td{font-size:1.1em;line-height:1.3;padding:.5em 1em 0}table thead{background:rgba(0,0,0,0.15);border:1px solid rgba(0,0,0,0.15);border-bottom:1px solid rgba(0,0,0,0.2)}table tbody{background:rgba(0,0,0,0.05)}table tfoot{background:rgba(0,0,0,0.15);border:1px solid rgba(0,0,0,0.15);border-top:1px solid rgba(0,0,0,0.2)}figure{display:inline-block;overflow:hidden;position:relative;margin:1em 0 2em}figcaption{font-style:italic;text-align:center;background:white;color:#666}.poetry pre{display:block;font-family:Georgia,Garamond,serif !important;font-size:110% !important;font-style:italic;line-height:1.6em;margin-left:1em}.poetry pre code{font-family:Georgia,Garamond,serif !important;word-break:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;white-space:pre-wrap}blockquote p{font-size:110%;font-style:italic;line-height:1.6em}sup,sub,a.footnote{font-size:1.4ex;height:0;line-height:1;position:relative;vertical-align:super}sub{vertical-align:sub;top:-1px}p{font-size:1.1429em;line-height:1.3125em;margin:1.3125em 0}dt,th{font-weight:700}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(200,200,200,0.25)}@media print{img,table,figure{page-break-inside:avoid}#wrapper{background:#fff;color:#303030;padding:10px;position:relative;text-indent:0}}@media screen{.inverted{background:#252a2a}.inverted #wrapper{background:#252a2a;color:#eee}.inverted hr{border-color:#333f40 !important}.inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted th,.inverted .math,.inverted caption,.inverted dt,.inverted dd{color:#eee}.inverted pre{background:#ccc;color:#111}.inverted table{background:none}.inverted table tr:nth-child(odd),.inverted table td:nth-child(odd){background:none}.inverted a{color:#acd1d5}::selection{background:rgba(157,193,200,0.5)}h1::selection{background-color:rgba(45,156,208,0.3)}h2::selection{background-color:rgba(90,182,224,0.3)}h3::selection,h4::selection,h5::selection,h6::selection,li::selection,ol::selection{background-color:rgba(133,201,232,0.3)}code::selection{background-color:rgba(0,0,0,0.7);color:#eee}code span::selection{background-color:rgba(0,0,0,0.7) !important;color:#eee !important}a::selection{background-color:rgba(255,230,102,0.2)}.inverted a::selection{background-color:rgba(255,230,102,0.6)}td::selection,th::selection,caption::selection{background-color:rgba(180,237,95,0.5)}}.mkstyle--swiss #wrapper aside.blurb:before{margin-top:.7em}
+#mkreplaced-toc{list-style-position:inside;padding:0;margin:0 0 0 1rem;list-style-type:none}#mkreplaced-toc li::before{content:''}#mkreplaced-toc li{font-size:1rem;line-height:1.25;font-weight:normal}#mkreplaced-toc li ul{font-size:1.3rem;font-weight:300;padding:.5rem 0;margin:0 0 0 1rem}#mkreplaced-toc li.missing{list-style-type:none !important}#mkreplaced-toc.max-1 ul,#mkreplaced-toc.max1 ul{display:none}#mkreplaced-toc.max-2 ul ul,#mkreplaced-toc.max2 ul ul{display:none}#mkreplaced-toc.max-3 ul ul ul,#mkreplaced-toc.max3 ul ul ul{display:none}#mkreplaced-toc.max-4 ul ul ul ul,#mkreplaced-toc.max4 ul ul ul ul{display:none}#mkreplaced-toc.max-5 ul ul ul ul ul,#mkreplaced-toc.max5 ul ul ul ul ul{display:none}.mk-rtl{direction:rtl;text-align:right}body.mkkatex-number-equations{counter-reset:eqnum}body.mkkatex-number-equations .katex-display{position:relative}body.mkkatex-number-equations .katex-display::after{counter-increment:eqnum;content:"(" counter(eqnum) ")";position:absolute;left:0;top:25%}body.mkkatex-number-equations.mkkatex-number-equations-right .katex-display::after{right:0;left:auto}.mkprinting,.mkprinting #wrapper{height:auto;margin-bottom:0;padding-bottom:0}.hideProgress #generated-toc,.hideProgress #firstdiff,.hideProgress #toc-title,.hideProgress #mkdocumentprogress,.hideProgress #mkincludechart,.hideProgress #mkprogressbar1,.hideProgress #mkprogressbar2,.hideProgress b.bookmark,.hideProgress .mkscrollmeter,.hideProgress #alllinks,.hideProgress #criticnav,.hideProgress .popup,.hideProgress #progressindicator,.hideProgress #mkautoscroll,.mkprinting #generated-toc,.mkprinting #firstdiff,.mkprinting #toc-title,.mkprinting #mkdocumentprogress,.mkprinting #mkincludechart,.mkprinting #mkprogressbar1,.mkprinting #mkprogressbar2,.mkprinting b.bookmark,.mkprinting .mkscrollmeter,.mkprinting #alllinks,.mkprinting #criticnav,.mkprinting .popup,.mkprinting #progressindicator,.mkprinting #mkautoscroll{display:none !important}.hideProgress .mkstyledtag,.mkprinting .mkstyledtag{display:none}.mkcolor-grammar-error,.mkcolor-spell-error{background:none;border-bottom:none}.mkprinting.mkshowcomments .mkstyledtag{display:inline;background:#ccc;padding:3px 9px;border-radius:20px;font-size:1}@media print{body{background:white;line-height:1.4}html,body,#wrapper{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-webkit-perspective:none !important;-webkit-text-size-adjust:none;border:0;box-sizing:border-box;float:none;margin:0;max-width:100%;padding:0;margin-top:0;width:auto}.critic #wrapper mark.crit{background-color:#fffd38 !important;text-decoration:none;color:#000}h1,h2,h3,h4,h5,h6{page-break-after:avoid}p,h2,h3{orphans:3;widows:3}section{page-break-before:avoid}pre>code{white-space:pre;word-break:break-word}#generated-toc,#firstdiff,#toc-title,#mkdocumentprogress,#mkincludechart,#mkprogressbar1,#mkprogressbar2,.mkscrollmeter,#alllinks,.popup{display:none !important}.suppressprintlinks a{border-bottom:none !important;color:inherit !important;cursor:default !important;text-decoration:none !important}.hrefafterlinktext #wrapper a:link:after,.hrefafterlinktext #wrapper a:visited:after{content:" (" attr(href) ") ";font-size:90%;opacity:.9}.nocodebreak pre{page-break-inside:avoid}img,table,figure{page-break-inside:avoid}.breakfootnotes .footnotes{page-break-before:always}.breakfootnotes .footnotes hr{display:none}#mktoctitle{display:block}#print-title{border-bottom:solid 1px #666;display:block}#wrapper pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{display:block}.task-list{padding-left:3.3rem}.mkstyle--ink .task-list,.mkstyle--swiss .task-list{padding-left:3.3rem !important}.mkstyle--upstandingcitizen .task-list,.mkstyle--github .task-list{padding-left:3.6rem !important}.mkstyle--manuscript .task-list{padding-left:2.4rem !important}.mkstyle--amblin .task-list{padding-left:2.1rem !important}.mkstyle--grump .task-list{padding-left:1rem !important}.mkstyle--grump .task-list .task-list-item-checkbox{left:0 !important}.task-list .task-list-item{list-style-type:none !important;left:auto}.task-list .task-list-item .task-list-item-checkbox{-webkit-appearance:none;position:relative;left:auto}.task-list .task-list-item .task-list-item-checkbox:before{border:solid 1px #aaa;border-radius:2px;color:white;content:' ';display:block;font-weight:bold;height:1em;left:-1rem;line-height:1;position:absolute;text-align:center;top:-.75em;width:1em}.task-list .gh-complete.task-list-item .task-list-item-checkbox:before{background:#838387;content:'\2713'}}
+#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc,#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-position:inside}#wrapper #generated-toc-clone li.missing,#wrapper #mkreplaced-toc li.missing{list-style-type: none!important}#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-type: upper-roman}#wrapper #generated-toc-clone>ul>li>ul,#wrapper #mkreplaced-toc>li>ul {list-style-type: decimal}#wrapper #generated-toc-clone>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul{list-style-type: decimal-leading-zero}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul{list-style-type: lower-greek}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul{list-style-type: disc}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul>li>ul{list-style-type: square}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{}
+</style>
+
+<style id="mkprintstyles">@media print{#wrapper #generated-toc-clone,#generated-toc{display:none!important}
+html,body,#wrapper{font-size:10pt!important}
+}
+</style>
+
+
+  </head>
+<body class="normal firstload">
+  <div id="wrapper">
+<h1 id="adologyarchitecture">Adology Architecture</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>Adology’s architecture is designed to systematically store, analyze, and generate insights from advertising data. The system must support highly structured AI-driven analysis while also maintaining efficient retrieval of brand, ad, and intelligence reports—all within a cost-effective, scalable database structure.</p>
+
+<p>At its core, Adology is not just a passive ad-tracking tool. Instead, it is an AI-powered intelligence engine that captures:<br/>
+- The raw reality of ad creatives (metadata, images, videos, and text),<br/>
+- The structured interpretation of these creatives (AI-generated labels, scores, and embeddings),<br/>
+- The higher-level knowledge extracted from AI insights (brand-wide trends, comparative analysis, and strategic reports).</p>
+
+<p>Adology's data architecture supports multiple users within customer accounts, each managing multiple <em>brandspaces</em>, where each brandspace revolves around a primary brand, tracking competitor brands and followed brands to define the scope of intelligence gathering. A user can switch brandspaces for one customer organization at any time, but will require a unique email and separate login to support multiple organizations.</p>
+
+<p>Adology is, in most respects, a conventional, Internet-accessible database and content management service built on top of conventional data stores and access methods, including AWS, EC2, S3, SQS, Lambda, Postgres, Mongo, and Python. What makes it valuable is the intelligent, contextual analysis and notifications of the advertising-based videos and imagery stored and maintained in realtime. Newly ingested Images and videos are archived in S3 and accessed directly via S3 URLs. </p>
+
+<p>The APIs used by client programs, including both UX and background programs, support a Contextual Data Model that offers a variety of convenient features and returns filtered , transformed and AI-enhanced slices of the database. Clients see all these REST APIs at <a href="https://adology.ai/live/…">https://adology.ai/live/…</a></p>
+
+<p>The data stores (S3, Postgres, Mongo) that support the Adology Contextual Data Model are filled by Acquisition Engines, which are EC2 or dynamically launched Lambda functions that pull data from remote sources, including specifically: Facebook, SerpApi, and customer-specific sources and databases.</p>
+
+<p>Most of the data is shared by all customers such as brands and advertising data including images and video, but some of it is private to each customer including <em>brandspaces</em></p>
+
+<p>Different non-UI components are runnable as either EC2 or Lambda functions and are connected through a series of SQS queues. The SQS queues and Lambdas support parallelization of workflows for maximum concurrency.</p>
+
+<h3 id="frontend">FrontEnd</h3>
+
+<p>The main user interface is the Adology Dashboard which is a javascript application that makes API calls to the Adology server infrastructure. Since many API calls instantiate long-running background lambda functions WebSockets are utilized to inform the client of operations completion. Additional</p>
+
+<h2 id="datastorageconsiderations">Data Storage Considerations</h2>
+
+<p>Adology is not just a database but an intelligence engine. Storage decisions must be made with retrieval efficiency &amp; AI processing costs in mind.</p>
+
+<h3 id="datahierarchy">Data Hierarchy</h3>
+
+<p>Organization Account &gt; Brandspace &gt; Tracked Brand Intelligence (1 primary, multiple competitor and followers) &gt; Channels &gt; Brands &gt; Ads &gt; AI Processing &gt; Reports &amp; Displays</p>
+
+<h4 id="organizationaccount">Organization Account</h4>
+
+<p>Represents a customer organization or business entity using Adology.<br/>
+Manages multiple brand-focussed workspaces (Brandspaces) where ad intelligence analysis is conducted. </p>
+
+<h4 id="brandspaces">Brandspaces</h4>
+
+<p>A user is connected to at least one Brandspace, and can switch brandspace.<br/>
+Each brandspace is centered around one primary brand, containting lists of competitors &amp; followed brands, which dictate the scope of analysis.<br/>
+This level ensures customized tracking and insights for each brand strategy. </p>
+
+<h4 id="brand-levelintelligence">Brand-Level Intelligence</h4>
+
+<p>Captures brand metadata, such as logos, category, website, and positioning summaries.<br/>
+Brand descriptions are dynamically updated based on AI-generated insights.<br/>
+Brands connect to multiple channels (e.g., Meta, SERP, YouTube) that serve as data sources. </p>
+
+<h4 id="channel-leveltracking">Channel-Level Tracking</h4>
+
+<p>Each brand runs ads across multiple channels, and each channel is treated as a separate data source.<br/>
+Tracks where each ad originates, ensuring proper categorization and segmentation. </p>
+
+<h4 id="sharedbranddatastore">Shared Brand Data Store</h4>
+
+<p>All Brand Data is from all sources is shared amongst all Adology users in S3.</p>
+
+<h4 id="sharedadsdatastore">Shared Ads Data Store</h4>
+
+<p>Ads from all sources are accumulated permenently in S3, All Ads Data is shared amongst all Adology users</p>
+
+<h4 id="ad-levelintelligencethebuildingblocksofai-driveninsights">Ad-Level Intelligence (The Building Blocks of AI-Driven Insights)</h4>
+
+<p>Ad metadata is captured first (e.g., raw text, CTA, platform, status, Image/Video URL).<br/>
+AI extracts structured attributes, generating:<br/>
+Raw Ad Descriptions → Text-based analysis of ad messaging.<br/>
+AI Labels &amp; Scores → Categorical attributes applied by AI.<br/>
+Embeddings → AI-generated vector representations of ad visuals &amp; text to power semantic search &amp; similarity analysis.<br/>
+Ad-Level AI Data (per individual ad):<br/>
+Raw Descriptions → AI-generated explanations of what the ad conveys.<br/>
+Labels &amp; Scores → AI-assigned attributes (e.g., &quot;Product Demo,&quot; &quot;Emotional Appeal: Inspiration&quot;).<br/>
+Embeddings → AI-generated vectorized representations of text &amp; images (used for similarity search).</p>
+
+<h4 id="aisummarizationbrand-levelinsights">AI Summarization &amp; Brand-Level Insights</h4>
+
+<p>Once enough ad descriptions exist, they are aggregated into brand-wide insights.<br/>
+AI creates high-level descriptions summarizing key brand themes, messaging patterns, and performance insights.<br/>
+This ensures that insights remain up-to-date as new ads are processed.<br/>
+Brand-Level AI Data (aggregated from ad-level AI data):<br/>
+Theme Clusters → Groups of ads that share common storytelling techniques.<br/>
+Attribute Summaries (Features, Claims, Offers) → AI-generated analysis of how<br/>
+Messaging Trends → AI-detected patterns in claims, benefits, and CTA effectiveness.</p>
+
+<h4 id="reportscompetitiveanalysis">Reports &amp; Competitive Analysis</h4>
+
+<p>Reports are generated by &amp; displayed in modules like Inspire Recs &amp; Trends, Market Intelligence/Brand Details.<br/>
+AI generated Reports are pre-generated at the end of the acquire process, based on Competitor &amp; Follower Lists, for customer-facing insights (to reduce API costs).<br/>
+These reports synthesize AI-generated insights from both ad-level and brand-level data. (#’s 5 &amp; 6 in this list)<br/>
+Includes competitive benchmarking, creative trends, and strategic recommendations.<br/>
+EXAMPLE: Generating Ad Recommendations in INSPIRE<br/>
+Software pulls the Ad &amp; Brand Level AI data, for the Competitor &amp; Follower listed Brands.<br/>
+Runs Ad Recommendation Prompt<br/>
+Saves Ad Recommendations, displays in INSPIRE REC module<br/>
+We update these when 2 of the following happen:<br/>
+User comes in and adds/removes a new follower/competitor brand<br/>
+We see a new ad come in from a follower/competitor brand<br/>
+Logic may be slightly more advanced: When 7 days have elapsed AND new ads have come in.</p>
+
+<p>Reports serve as snapshots of key insights that don’t need to be recalculated in real-time, ensuring cost efficiency.<br/>
+Reports are generated based on the competitor &amp; followed brand lists. INSPIRE RECS/TRENDS, BRAND DETAILS/MARKET INTELLIGENCE<br/>
+Stored insights include:<br/>
+Ad Theme Comparisons (e.g., “Nike focuses on speed, while Adidas emphasizes lifestyle.”)<br/>
+Messaging Effectiveness Reports (e.g., “Top 3 CTAs in the running shoe market.”)<br/>
+Trend Tracking (e.g., “Limited-time offers are increasing in Meta ads.”)<br/>
+Since reports are prebuilt, they are only updated intermittently—not every time a user loads the app.</p>
+
+<h3 id="optimizations">Optimizations</h3>
+
+<h4 id="adaidataisstoredinper-addocuments">Ad AI Data is Stored in Per-Ad Documents</h4>
+
+<ul>
+<li>Ad descriptions, labels, and embeddings are saved per ad.</li>
+<li>Allows fast retrieval of ad-level insights.</li>
+</ul>
+
+<h4 id="brandaidataisstoredseparatelyupdatedincrementally">Brand AI Data is Stored Separately &amp; Updated Incrementally</h4>
+
+<ul>
+<li>Brand-wide insights must be refreshed as new ads arrive—but only when necessary.</li>
+<li>Prevents unnecessary recomputation.</li>
+</ul>
+
+<h4 id="reportsdashboardsarecached">Reports &amp; Dashboards are Cached</h4>
+
+<ul>
+<li>Pre-built reports reduce OpenAI API calls.</li>
+<li>Dashboard analytics are stored separately for fast loading times.</li>
+<li>Reports driven by which Brands are on Competitor &amp; Follower List</li>
+</ul>
+
+<h4 id="brandspacesdictateintelligencescope">Brandspaces Dictate Intelligence Scope</h4>
+
+<ul>
+<li>Brandspaces are stored at an organizational level</li>
+<li>An organizations totality of Brandspaces determine which brands &amp; competitors get tracked.</li>
+<li>Ensures the app remains focused on the user’s needs.</li>
+</ul>
+
+<h2 id="centraldataspine">Central Data Spine</h2>
+
+<p>The primary table in the central spine is the Brand Descriptions Table. There are two types of entries:</p>
+
+<ul>
+<li><p>Brands We Are Analyzing: These brands are requested by our customers. The are fully analyzed by Adology's AI Engines.</p></li>
+<li><p>Brands We Are Tracking: These brands are generally specified by Adology and will be downloaded and stored in S3. They are not analyzed until request by a customer.</p></li>
+</ul>
+
+<p>When a customer requests information about a brand, all videos are images previously captured by Adology are made available, along with any newer assets, and then the collection is made available to the Analysis AI Engines.</p>
+
+<h4 id="addescriptionsattributes">Ad Descriptions/Attributes</h4>
+
+<p>The natural language, open-ended text attributes that are mapped to an ad by AI processing. There are 50+ attributes for which we generate descriptions. They are all open ended.<br/>
+- Used to power text summaries across the app.<br/>
+- Currently used for INSIGHT text summaries and INQUIRE/chatbot.<br/>
+- They are also used as inputs for trend detection.</p>
+
+<h4 id="detailedlongdescriptions">Detailed/Long Descriptions</h4>
+
+<p>A single attribute column that we gather: a 500-word description of an ad.</p>
+
+<p><strong>Labels:</strong> The close-ended, finite, hardcoded labels that we apply to each ad, based on predefined taxonomies. We have two label sets: UNIVERSAL and TREND labels.<br/>
+- Used to power graphs and charts across the app.<br/>
+- Currently used in INSIGHT, but will also be key in modules like TRACK.<br/>
+- They are also used as inputs for trend detection.</p>
+
+<h4 id="embeddings">Embeddings</h4>
+
+<p>Numerical representations of the creative or of text. We currently do not generate these in Acquire during the acquisition stage, but rather in a separate module at a later time.</p>
+
+<p>We have text embeddings of detailed descriptions, which we use to map images to insights in INSIGHT.<br/>
+We have visual embeddings of the ads themselves, which we use for trend detection.<br/>
+- We use text embeddings of detailed descriptions to map images to insights in INSIGHT. We do this by mapping the embedding of the INSIGHT text to the detailed description embeddings to find the ad that most closely matches the insight.<br/>
+- We don’t actually analyze ads or visual embeddings here.<br/>
+- We use text embeddings of the detailed description to enable the chatbot to retrieve the right information.</p>
+
+<h2 id="database">Database</h2>
+
+<p>The plan is to gradually migrate from Mongo to Postgres for performance reasons. Any data best served by Mongo (e.g., vector embeddings) will remain there.</p>
+
+<p>To facilitate this, a set of &quot;shell functions&quot; that hide the Postgres and Mongo specifics will be introduced into the codebase.</p>
+
+<h4 id="collectionsandsupportedoperations">Collections and Supported Operations</h4>
+
+<ul>
+<li><strong>brand_categories</strong>: find_one, find</li>
+<li><strong>brand_states</strong>: find_one, update_one, delete_one</li>
+<li><strong>chatbots</strong>: find, find_one, insert_one</li>
+<li><strong>conversation_chatbot_history</strong>: find, insert_one, delete_one, delete_many</li>
+<li><strong>conversation_history</strong>: find, insert_one</li>
+<li><strong>custom_reports</strong>: count_documents, find, find_one, update_one, delete_one</li>
+<li><strong>inspire_folders</strong>: find, find_one, insert_one, update_one, delete_one</li>
+<li><strong>inspire_folder_items</strong>: count_documents, find, find_one, insert_one, delete_one</li>
+<li><strong>inspire_subfolders</strong>: find, find_one, insert_one, update_one, delete_one</li>
+<li><strong>inspire_subfolder_items</strong>: count_documents, find, find_one, insert_one, delete_one</li>
+<li><strong>inspire_trends</strong>: find_one, update_one</li>
+<li><strong>list_auto_track</strong>: find_one, update_one</li>
+<li><strong>master_ads_meta</strong>: count_documents, find, find_one, insert_one</li>
+<li><strong>master_ads_metadata</strong>: find</li>
+<li><strong>master_ads_serp</strong>: find_one, insert_one</li>
+<li><strong>master_analysis_meta</strong>: find_one, insert_one</li>
+<li><strong>master_analysis_serp</strong>: find_one, insert_one</li>
+<li><strong>meta_ads_data</strong>: find_one, insert_one</li>
+<li><strong>meta_pages_info</strong>: find_one, insert_one</li>
+<li><strong>tasks</strong>: find_one, insert_one, update_one, delete_many</li>
+<li><strong>users</strong>: find_one, insert_one, update_one</li>
+<li><strong>vectors_embeddings</strong>: find_one, insert_one, update_one</li>
+</ul>
+
+<hr />
+
+<hr />
+
+<h2 id="themainacquisitionflow">The Main Acquisition Flow</h2>
+
+<p>The main flow for acquiring brand information is the most time-consuming and time-critical part of the system, and a key performance metric is to process 10,000 ads in 10 minutes.</p>
+
+<p><img src="%E2%80%8Ehttps:/billdonner.com/0311/aq.png" alt="Alt text for the image" width="400"></p>
+
+<p>To kick off processing for a brand:</p>
+
+<h4 id="1-afrontenddashboardjavascripttypescriptprogrammakesanapicallthatputsamessageontheapifysqsqueue">1 - A frontend dashboard (JavaScript/TypeScript) program makes an API call that puts a message on the Apify SQS queue</h4>
+
+<p>Multiple Apify processes serve this queue to handle multiple brands in parallel. Each process uses the Apify API to transform the message containing a BrandName into a stream of messages with URLs for specific images and videos.</p>
+
+<h4 id="2-thestreamofurl-basedmessagesisplacedontheacquiresqsqueue">2 - The stream of URL-based messages is placed on the Acquire SQS queue</h4>
+
+<p>The Acquire queue triggers the download of one URL's content and streams it to S3 concurrently. After it's in S3, it puts another message—with the S3 URL and other data/meta-data—on the analysis queue. Many Acquire processes/Lambda functions are set to service the downloads and uploads in parallel.</p>
+
+<h4 id="3-thestreamofs3url-basedmessagesisplacedontheanalyzesqsqueue">3 - The stream of S3 URL-based messages is placed on the Analyze SQS queue</h4>
+
+<p>The Analyze SQS queue feeds a collection of analysis processes that perform all of the open AI work at whatever pace they can. They are all running potentially in parallel up to the limits of the AI itself.</p>
+
+<h4 id="4-afteranalysiseverythingrestsinthedatabase">4 - After analysis, everything rests in the database</h4>
+
+<p>The frontend dashboard will periodically check for the completion of brand analysis before displaying results to customers. A future release will use WebSockets to provide a dynamic display.</p>
+
+<h4 id="5-front-endprogramsaccesss3directlyandpostgresmongothroughtheapi">5 - Front-end programs access S3 directly, and Postgres + Mongo through the API</h4>
+
+<p>The dashboard, which in our scaling model might be running in hundreds of browsers simultaneously, never touches the database directly—only through the API. Programs can read the data on S3, but not change it.</p>
+
+<hr />
+
+<h2 id="otherflows">Other Flows</h2>
+
+<p>Most UX activity involves responding to a user's actions by invoking an Adology API call and awaiting results. These will be discussed in more detail in the Dashboard section.</p>
+
+<p>Each of the brands in the database is periodically updated by a periodic CRON job that places a message on the Apify or SerpApi SQS queues.</p>
+
+<hr />
+
+<h2 id="appendices">Appendices</h2>
+
+<h3 id="commonthemesgeneralrecommendationsacrossallmodules">Common Themes &amp; General Recommendations Across All Modules</h3>
+
+<ul>
+<li><p><strong>Coding Standards &amp; Documentation</strong> </p></li>
+<li><p>Enforce a consistent code style (PEP8) using linters (e.g., flake8, Black). </p></li>
+<li><p>Add comprehensive docstrings and inline comments for clarity and maintainability.</p></li>
+<li><p><strong>Centralized Configuration &amp; Secrets Management</strong> </p></li>
+<li><p>Externalize all hardcoded values (API keys, model names, S3 bucket names, etc.) into configuration files or environment variables. </p></li>
+<li><p>Use a secure secrets management solution (e.g., AWS Secrets Manager).</p></li>
+<li><p><strong>Structured Logging &amp; Monitoring</strong> </p></li>
+<li><p>Replace all print statements with a structured logging framework that includes contextual data (user IDs, request IDs, timestamps). </p></li>
+<li><p>Integrate centralized logging and monitoring systems (e.g., ELK, CloudWatch) for better production observability.</p></li>
+<li><p><strong>Error Handling &amp; Retry Logic</strong> </p></li>
+<li><p>Use specific exception handling (e.g., catching JSONDecodeError, KeyError) rather than broad except blocks. </p></li>
+<li><p>Implement standardized retry mechanisms (e.g., using the tenacity library) for transient errors in external API and S3 interactions.</p></li>
+<li><p><strong>Separation of Concerns &amp; Modularity</strong> </p></li>
+<li><p>Refactor code to separate business logic from I/O operations (e.g., decouple database, S3, and API integrations into dedicated service layers). </p></li>
+<li><p>Consolidate duplicated logic into shared modules and utilities.</p></li>
+<li><p><strong>Concurrency &amp; Asynchronous I/O</strong> </p></li>
+<li><p>Reevaluate thread pool sizes and consider adopting asynchronous I/O (using libraries like asyncio or aiohttp) for network-bound tasks. </p></li>
+<li><p>Ensure proper thread safety when sharing resources (e.g., cycling API clients).</p></li>
+<li><p><strong>Testing &amp; CI/CD</strong> </p></li>
+<li><p>Increase test coverage with unit tests, integration tests, and end-to-end tests. </p></li>
+<li><p>Integrate static analysis, security scans, and dependency checks into the CI/CD pipeline.</p></li>
+<li><p><strong>External API Integration</strong> </p></li>
+<li><p>Add input validation and robust error handling around external API calls. </p></li>
+<li><p>Use retries and fallback strategies to handle transient API failures. </p></li>
+</ul>
+
+<h3 id="understandingkeyawscomponents">Understanding Key AWS Components</h3>
+
+<p>For readers who are less familiar with AWS, here's a brief overview of the key services mentioned:</p>
+
+<ul>
+<li><p><strong>Amazon EC2 (Elastic Compute Cloud):</strong><br/>
+ EC2 provides scalable computing capacity in the cloud. It allows you to run virtual servers (instances) on-demand without needing to invest in hardware. This service is ideal when you need full control over the server environment or when running long-running, stateful applications.<br/>
+ <a href="https://docs.aws.amazon.com/ec2/">Learn more about EC2</a>.</p></li>
+<li><p><strong>Amazon S3 (Simple Storage Service):</strong><br/>
+ S3 is a highly scalable object storage service designed to store and retrieve any amount of data at any time. It is commonly used for storing files, backups, and media assets like images and videos.<br/>
+ <a href="https://docs.aws.amazon.com/s3/">Learn more about S3</a>.</p></li>
+<li><p><strong>Amazon SQS (Simple Queue Service):</strong><br/>
+ SQS is a managed message queuing service that enables the decoupling of components in a distributed system. It reliably transmits messages between different parts of your application, making it especially useful for scaling and parallel processing.<br/>
+ <a href="https://docs.aws.amazon.com/sqs/">Learn more about SQS</a>.</p></li>
+</ul>
+
+<hr />
+
+<h3 id="runningcodeonaws%3Alambdavsec2">Running Code on AWS: Lambda vs EC2</h3>
+
+<p>AWS provides different ways to run your code, each tailored for specific use cases:</p>
+
+<ul>
+<li><p><strong>AWS Lambda:</strong> </p></li>
+<li><p><strong>What is it?</strong><br/>
+Lambda is a serverless compute service that allows you to run code without provisioning or managing servers. You simply upload your code (in supported languages), and Lambda handles the execution, scaling, and high availability automatically. </p></li>
+<li><p><strong>When to use it:</strong><br/>
+Use Lambda for event-driven, short-lived, and stateless functions—such as processing S3 events, handling API requests, or responding to changes in your data. </p></li>
+<li><p><strong>Learn more:</strong><br/>
+<a href="https://docs.aws.amazon.com/lambda/">AWS Lambda Documentation</a>.</p></li>
+<li><p><strong>Amazon EC2:</strong> </p></li>
+<li><p><strong>What is it?</strong><br/>
+EC2 provides virtual machines in the cloud where you have full control over the operating system, installed software, and configurations. This service is suited for running long-running processes or stateful applications that require persistent storage or a custom server environment. </p></li>
+<li><p><strong>When to use it:</strong><br/>
+Choose EC2 when you need complete control over your server environment, require a persistent server, or need to run applications that aren't easily adapted to a serverless model. </p></li>
+<li><p><strong>Learn more:</strong><br/>
+<a href="https://docs.aws.amazon.com/ec2/">AWS EC2 Documentation</a>.</p></li>
+</ul>
+
+<hr />
+
+<h3 id="bestpracticesforwritingfunctionsforparallelexecution">Best Practices for Writing Functions for Parallel Execution</h3>
+
+<ul>
+<li><p><strong>Statelessness:</strong><br/>
+ Python functions do not depend on or modify shared state. If state is required, store it externally (e.g., in a database, S3) so that each function invocation is independent.</p></li>
+<li><p><strong>Idempotency:</strong><br/>
+ Multiple identical invocations produce the same result without causing unintended side effects. This is especially important for distributed systems and when implementing retry mechanisms.</p></li>
+<li><p><strong>Robust Error Handling:</strong><br/>
+ Implement comprehensive error handling and logging. This is critical in parallel execution environments, as it helps with diagnosing issues and ensuring system reliability.</p></li>
+<li><p><strong>Granularity:</strong><br/>
+ Aim for small, well-defined functions that perform a single unit of work. Functions that are too large or complex can become harder to scale and manage in a parallel environment.</p></li>
+<li><p><strong>Testing:</strong><br/>
+ Test your functions both in isolation and within the parallel execution framework. This ensures that they behave as expected when running concurrently on EC2 or as AWS Lambda functions.</p></li>
+</ul>
+
+<h1 id="more">More</h1>
+
+<h1 id="branddescriptionstablespecification">Brand Descriptions Table Specification</h1>
+
+<p>This section describes the design and processing steps for building a <strong>Brand Descriptions Table</strong>. The table summarizes each brand’s creative attributes (such as features, claims, benefits, offers, key messages, etc.) and supports downstream modules like Brand Details and Inspire. It is the key component of the Central Data Spine</p>
+
+<h2 id="1.overview">1. Overview</h2>
+
+<h3 id="1.1.primaryuserpersonas">1.1. Primary User Personas</h3>
+
+<ul>
+<li><strong>Backend Functions:</strong> Data processing, analytics, and integration with downstream modules.</li>
+</ul>
+
+<h3 id="1.2.jobstobedone">1.2. Jobs to Be Done</h3>
+
+<ul>
+<li><strong>Summarize Brand Attributes:</strong> Provide a cohesive view of a brand’s features, claims, benefits, etc.</li>
+<li><strong>Support Downstream Modules:</strong> Supply standardized data for modules such as Brand Details, Inspire, and Ad Spend Reporting.</li>
+<li><strong>Ensure Consistent Data Representation:</strong> Harmonize attribute values across both primary and competitor brands.</li>
+</ul>
+
+<h2 id="2.contextandfunctionalrequirements">2. Context and Functional Requirements</h2>
+
+<h3 id="2.1.purposeapproach">2.1. Purpose &amp; Approach</h3>
+
+<ul>
+<li><strong>Functionality:</strong> Similar to ad descriptions:</li>
+<li>One row per unique brand item.</li>
+<li>Attributes calculated to summarize themes, features, and benefits.</li>
+<li><strong>Mapping:</strong> Each attribute is derived from source fields in the ad description:</li>
+<li><strong>Features:</strong> from <code>features</code></li>
+<li><strong>Benefits:</strong> from <code>benefits</code></li>
+<li><strong>Claims:</strong> from <code>claims</code></li>
+<li><strong>Offers:</strong> from <code>offers</code></li>
+<li><strong>Themes:</strong> from <code>Long Description</code></li>
+<li><strong>Key Messages:</strong> from <code>key message</code></li>
+</ul>
+
+<h3 id="2.2.keyattributes">2.2. Key Attributes</h3>
+
+<h4 id="mvpattributes">MVP Attributes</h4>
+
+<ul>
+<li><strong>Features</strong></li>
+<li><strong>Benefits</strong></li>
+<li><strong>Claims</strong></li>
+<li><strong>Offers</strong></li>
+<li><strong>Key Messages</strong></li>
+</ul>
+
+<h4 id="v2attributes">V2 Attributes</h4>
+
+<ul>
+<li><strong>Visual Styles</strong></li>
+<li><strong>Emotions</strong></li>
+<li><strong>Category Entry Points</strong></li>
+</ul>
+
+<h4 id="informationtypesexample%3Aclaims">Information Types (Example: Claims)</h4>
+
+<ul>
+<li><strong>All Unique Claims</strong></li>
+<li><strong>Categories of Claims</strong></li>
+<li><strong>Summary of Claims:</strong> Detailed description explaining the claims and their usage.</li>
+</ul>
+
+<h2 id="3.dataprocessingpipeline">3. Data Processing Pipeline</h2>
+
+<p>The processing pipeline extracts raw data, harmonizes entries using GPT, categorizes them, counts occurrences, and generates summaries. It supports both initial processing and incremental updates.</p>
+
+<h3 id="3.1.rawextraction">3.1. Raw Extraction</h3>
+
+<ul>
+<li><strong>Source Data:</strong> Extract raw creative attributes from ad descriptions.</li>
+<li><strong>Staging:</strong> Store ad-level data with timestamps and source identifiers.</li>
+<li><strong>Field Mapping:</strong></li>
+<li>Features → <code>features</code></li>
+<li>Benefits → <code>benefits</code></li>
+<li>Claims → <code>claims</code></li>
+<li>Offers → <code>offers</code></li>
+<li>Themes → <code>Long Description</code></li>
+<li>Key Messages → <code>key message</code></li>
+</ul>
+
+<h3 id="3.2.uniqueattributeextractionharmonization">3.2. Unique Attribute Extraction &amp; Harmonization</h3>
+
+<h4 id="a.initialrunfirsttimeprocessing">A. Initial Run (First Time Processing)</h4>
+
+<p>For each attribute (using <strong>Features</strong> as an example):</p>
+
+<ol>
+<li><p><strong>Create Unique Features List</strong> </p></li>
+<li><p><strong>Code:</strong> Extract unique entries from the raw features column. </p></li>
+<li><p><strong>GPT:</strong> Analyze and harmonize syntax to create an exhaustive list of unique features. </p></li>
+<li><p><strong>Storage:</strong> Save the list of unique features in the Brand Descriptions Table. </p></li>
+<li><p><strong>Mapping:</strong> Create a dictionary mapping raw entries to the unified unique features. </p></li>
+<li><p><strong>Labeling:</strong> Apply these labels back to the original ad descriptions (new column) for counting.</p></li>
+<li><p><strong>Create Feature Categories List</strong> </p></li>
+<li><p><strong>GPT:</strong> Analyze the unique features and generate corresponding feature categories. </p></li>
+<li><p><strong>Mapping:</strong> Build a dictionary mapping each unique feature to a feature category. </p></li>
+<li><p><strong>Storage:</strong> Save category mappings in both the Brand Descriptions Table and the Ad Descriptions Table (to allow counting by feature and category).</p></li>
+<li><p><strong>Count Ads for Each Feature and Category</strong> </p></li>
+<li><p><strong>Code:</strong> Count the number of ads matching each unique feature and category. </p></li>
+<li><p><strong>Storage:</strong> Save counts and percentages in the Brand Descriptions Table.</p></li>
+<li><p><strong>Generate Feature Summary Information</strong> </p></li>
+<li><p><strong>Selection:</strong> For each unique feature, select a sample (e.g., 5 ads). </p></li>
+<li><p><strong>GPT:</strong> Generate a summary explaining how the brand leverages that feature, including ad counts and percentages. </p></li>
+<li><p><strong>Storage:</strong> Save the generated summary in the Brand Descriptions Table.</p></li>
+</ol>
+
+<h4 id="b.incrementalupdatessubsequentruns">B. Incremental Updates (Subsequent Runs)</h4>
+
+<p>When new ads are detected:</p>
+
+<ol>
+<li><p><strong>Identify New Ads &amp; Unique Features</strong> </p></li>
+<li><p><strong>Code:</strong> Extract unique feature entries from new ads. </p></li>
+<li><p><strong>Comparison:</strong> Compare new entries with the existing unique features list. </p></li>
+<li><p><strong>Labeling:</strong> Mark new entries as “New Features” and update older ones (older than 4 weeks) to “Not New.”</p></li>
+<li><p><strong>Update Unique Features and Categories</strong> </p></li>
+<li><p><strong>GPT:</strong> Re-analyze the updated list to harmonize new entries. </p></li>
+<li><p><strong>Mapping:</strong> Update the Brand Descriptions Table and apply labels to new ads. </p></li>
+<li><p><strong>Category Check:</strong> Compare the updated unique features against existing categories and create new categories if necessary. </p></li>
+<li><p><strong>Storage:</strong> Save updated mappings in both the Brand Descriptions Table and the Ad Descriptions Table.</p></li>
+<li><p><strong>Re-count Ads and Update Summaries</strong> </p></li>
+<li><p><strong>Code:</strong> Recalculate counts and percentages. </p></li>
+<li><p><strong>GPT:</strong> Generate updated summaries for any new unique features. </p></li>
+<li><p><strong>Storage:</strong> Update summary information in the Brand Descriptions Table.</p></li>
+</ol>
+
+<h3 id="3.3.competitorbrandsprocessing">3.3. Competitor Brands Processing</h3>
+
+<ul>
+<li><strong>Initial Run:</strong> Use the primary brand’s unique features and category list as a baseline.</li>
+<li><strong>Subsequent Runs:</strong></li>
+<li>Follow the same incremental update process using the competitor’s dedicated unique features and categories list.</li>
+</ul>
+
+<h3 id="3.4.datahierarchysummary">3.4. Data Hierarchy Summary</h3>
+
+<ul>
+<li><strong>Raw Extraction:</strong> Stored at the ad level.</li>
+<li><strong>Unified Uniques:</strong> Stored at the brand level and applied as labels to ad-level data.</li>
+<li><strong>Categories:</strong> Stored at the brand level and used to label ad data for counting.</li>
+<li><strong>Feature Summary:</strong> Stored only at the brand level.</li>
+</ul>
+
+<blockquote>
+<p><strong>Note:</strong> This pipeline is repeated for all creative attributes (e.g., benefits, claims, offers) except for themes, which follow a different process.</p>
+</blockquote>
+
+<h2 id="4.gptfeedbackandenhancedpipelinearchitecture">4. GPT Feedback and Enhanced Pipeline Architecture</h2>
+
+<h3 id="4.1.strengthsofthecurrentspec">4.1. Strengths of the Current Spec</h3>
+
+<ul>
+<li><strong>Comprehensive Coverage:</strong> Clearly identifies key creative attributes and the necessary information types.</li>
+<li><strong>Hierarchical Data Flow:</strong> Logical progression from raw extraction to unified values, categorization, and summary generation.</li>
+<li><strong>Effective GPT Integration:</strong> Uses GPT for language harmonization, deduplication, and generating human-readable summaries.</li>
+<li><strong>Incremental Update Strategy:</strong> Processes new ads without reprocessing the entire dataset.</li>
+</ul>
+
+<h4 id="optimizinggptusage">Optimizing GPT Usage</h4>
+
+<ul>
+<li><strong>Batching and Caching:</strong></li>
+<li>Process data in batches.</li>
+<li>Cache GPT outputs to reduce repeated calls.</li>
+<li><strong>Hybrid Methods:</strong></li>
+<li>Use traditional NLP techniques (e.g., clustering, similarity scoring) to pre-group entries before GPT processing.</li>
+</ul>
+
+<h4 id="handlingambiguity">Handling Ambiguity</h4>
+
+<ul>
+<li><strong>Confidence &amp; Ambiguity Handling:</strong></li>
+<li>Define fallback processes or human review triggers for ambiguous or low-confidence mappings.</li>
+</ul>
+
+<h4 id="incrementalupdatesversioncontrol">Incremental Updates &amp; Version Control</h4>
+
+<ul>
+<li><strong>Change Detection:</strong></li>
+<li>Maintain timestamps and version tags for entries.</li>
+<li><strong>Versioning:</strong></li>
+<li>Implement version control to track changes over time in the Brand Descriptions Table.</li>
+</ul>
+
+<h4 id="errorhandlingandqualityassurance">Error Handling and Quality Assurance</h4>
+
+<ul>
+<li><strong>Structured Logging:</strong></li>
+<li>Implement robust error logging for each step (e.g., GPT call errors, JSON parsing issues).</li>
+<li><strong>Validation Metrics:</strong></li>
+<li>Establish metrics to assess the quality and consistency of outputs (e.g., category mappings, summary accuracy).</li>
+</ul>
+
+<h4 id="documentationvisualization">Documentation &amp; Visualization</h4>
+
+<ul>
+<li><strong>Diagrams &amp; Schemas:</strong></li>
+<li>Include data flow diagrams to illustrate the journey from raw extraction to final summaries.</li>
+<li><strong>Field Mapping Documentation:</strong></li>
+<li>Clearly document the mapping between source fields and target attributes.</li>
+</ul>
+
+<h4 id="scalabilityperformance">Scalability &amp; Performance</h4>
+
+<ul>
+<li><strong>Parallel Processing:</strong></li>
+<li>Optimize extraction and counting steps using parallel or distributed processing.</li>
+<li><strong>Resource Management:</strong></li>
+<li>Schedule resource-intensive tasks during off-peak hours to manage costs and performance.</li>
+</ul>
+
+<h2 id="5.additionalconsiderations">5. Additional Considerations</h2>
+
+<h3 id="5.1.inspiremoduleunifiedadtags">5.1. Inspire Module &amp; Unified Ad Tags</h3>
+
+<ul>
+<li><p><strong>Unified Ad Tags:</strong> </p></li>
+<li><p>Ensure ad tags are consistent across brands. </p></li>
+<li><p>Consider universal tags for standardized labels across all brands, in addition to brand-specific tags.</p></li>
+<li><p><strong>Competitor Brand Mapping:</strong> </p></li>
+<li><p>Define competitor brands in the context of a user’s primary brand. </p></li>
+<li><p>Map competitor features/claims to the customer’s taxonomy first, then create new taxonomies for unmatched entries.</p></li>
+</ul>
+
+<h3 id="5.2.user-definedtaxonomyanddatamanagement">5.2. User-Defined Taxonomy and Data Management</h3>
+
+<ul>
+<li><p><strong>Central vs. Account-Specific Data:</strong> </p></li>
+<li><p>Define which data is stored centrally (shared across accounts) and which is calculated per account.</p></li>
+<li><p><strong>Taxonomy Manager:</strong> </p></li>
+<li><p>Calculated Uniques &amp; Categories are written into the Taxonomy Manager. </p></li>
+<li><p>Users can override and lock in their taxonomy, ensuring user-defined labels are prioritized. </p></li>
+<li>This approach supports:
+
+<ul>
+<li>Surfacing new tags for taxonomy management.</li>
+<li>Influencing pivot options in ad spend reporting.</li>
+<li>Catering to both agency pitches (using identified labels) and customer account reporting (using a mix of generated and user-defined taxonomy).</li>
+</ul></li>
+</ul>
+
+<h2 id="6.conclusion">6. Conclusion</h2>
+
+<p>This specification defines a comprehensive, modular, and scalable approach for creating and maintaining a <strong>Brand Descriptions Table</strong>. The proposed pipeline:</p>
+
+<ul>
+<li><strong>Integrates GPT</strong> for harmonizing language and generating narrative summaries.</li>
+<li><strong>Supports Incremental Updates</strong> to efficiently process new ad data.</li>
+<li><strong>Provides Robust Error Handling</strong> and quality assurance.</li>
+<li><strong>Facilitates Downstream Modules</strong> such as Brand Details, Inspire, and Ad Spend Reporting.</li>
+<li><strong>Accommodates User-Defined Inputs</strong> via a Taxonomy Manager for added flexibility.</li>
+</ul>
+
+<p>By following this architecture and the outlined improvements, the system will deliver consistent, high-quality brand summaries and scale effectively as new data and attributes are processed over time.</p>
+
+<h2 id="approutes">App Routes</h2>
+
+<p>These are specific routes scattered throughout the code:</p>
+<pre><code class="python">@app.route(&apos;/api/dashboard&apos;)
+@app.route(&apos;/api/index&apos;)
+@app.route(&apos;/api/brand_suggestions&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/lists/create&apos;, methods=[&apos;POST&apos;])
+# @app.route(&apos;/test&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/query&apos;, methods=[&apos;POST&apos;])
+@app.route(&quot;/api/tasks/&lt;task_id&gt;&quot;, methods=[&quot;GET&quot;])
+@app.route(&apos;/api/lists&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/lists/&lt;list_item_id&gt;&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/lists/update/&lt;list_item_id&gt;&apos;, methods=[&apos;PUT&apos;])
+@app.route(&apos;/api/lists/remove/&lt;list_item_id&gt;&apos;, methods=[&apos;DELETE&apos;])
+@app.route(&apos;/api/lists/add_brands/&lt;list_item_id&gt;&apos;, methods=[&apos;PATCH&apos;])
+@app.route(&apos;/api/lists/remove_brand/&lt;list_item_id&gt;&apos;, methods=[&apos;DELETE&apos;])
+@app.route(&apos;/api/process_brand_list&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/acquire/test&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/process_custom_prompt&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/list_status&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/get_acquisition_date&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/user/brands/export_all&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/user/brands/export_single&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/user/brands/view_all&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/user/brands/view_single&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/user/brands&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/user/list_or_acquire_brands&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/visualize_primary_brand&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/user/select_comparison_brands&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/user/visualize_comparison_brands&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/brand_report&apos;, methods=[&apos;GET&apos;])
+@app.route(&apos;/api/brand_report_comparison&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/api/high_rated_images&apos;)
+@app.route(&apos;/send&apos;, methods=[&apos;POST&apos;])
+@app.route(&apos;/&apos;, methods=[&apos;GET&apos;])</code></pre>
+
+<p>These routes are generic - they represent a collection of endpoints and require parsing of detailed arguments by the application:</p>
+
+<h2 id="--mkcodeblock-0"><pre><code class="python">app.register_blueprint(auth_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(chatbot_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(inspire_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(raw_footage_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(categories_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(acquire_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(enrich_bp, url_prefix=&apos;/&apos;)
+app.register_blueprint(brands_bp, url_prefix=&apos;/&apos;)</code></pre></h2>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>
