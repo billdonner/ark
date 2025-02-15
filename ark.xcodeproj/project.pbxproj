@@ -6,10 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		88726AEA2D61376600CA62BD /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		88726AEB2D61385200CA62BD /* ‎AquireSQS.‎001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "‎AquireSQS.‎001.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		88726AE32D61374E00CA62BD = {
 			isa = PBXGroup;
 			children = (
+				88726AEA2D61376600CA62BD /* readme.md */,
+				88726AEB2D61385200CA62BD /* ‎AquireSQS.‎001.png */,
 			);
 			sourceTree = "<group>";
 		};
